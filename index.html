@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+
+  <!-- Завдання 1 -->
+  <section>
+    <h2> Таймер інтервалу</h2>
+    <button onclick="startInterval()">Старт</button>
+    <div id="intervalOutput"></div>
+  </section>
+
+  <!-- Завдання 2 -->
+  <section>
+    <h2>Анімація елементів</h2>
+    <div class="box" id="box1"></div>
+    <button onclick="startAnimation()">Анімація</button>
+  </section>
+
+  <!-- Завдання 3 -->
+  <section>
+    <h2>Інтерактивна гра</h2>
+    <h3>Очки: <span id="score">0</span></h3>
+    <div class="target" id="target"></div>
+    <button onclick="startGame()">Старт гри</button>
+  </section>
+
+  <!-- Завдання 4 -->
+  <section>
+    <h2>Контроль часу</h2>
+    <input type="number" id="timeInput" placeholder="Час у секундах" />
+    <button onclick="startTimer()">Старт</button>
+    <p id="message"></p>
+  </section>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
